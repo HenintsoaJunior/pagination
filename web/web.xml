@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>FormUtilisateurServlet</servlet-name>
+        <servlet-class>servlet.FormUtilisateurServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormUtilisateurServlet</servlet-name>
+        <url-pattern>/FormUtilisateurServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TraitementStatistique</servlet-name>
+        <servlet-class>servlet.TraitementStatistique</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementStatistique</servlet-name>
+        <url-pattern>/TraitementStatistique</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TraitementStatRevenueMensuel</servlet-name>
+        <servlet-class>servlet.TraitementStatRevenueMensuel</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementStatRevenueMensuel</servlet-name>
+        <url-pattern>/TraitementStatRevenueMensuel</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TraitementStatReservationMensuelGeneral</servlet-name>
+        <servlet-class>servlet.TraitementStatReservationMensuelGeneral</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementStatReservationMensuelGeneral</servlet-name>
+        <url-pattern>/TraitementStatReservationMensuelGeneral</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>TraitementStatReservationMensuelHotel</servlet-name>
+        <servlet-class>servlet.TraitementStatReservationMensuelHotel</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementStatReservationMensuelHotel</servlet-name>
+        <url-pattern>/TraitementStatReservationMensuelHotel</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TraitementStatReservationMensuelTransport</servlet-name>
+        <servlet-class>servlet.TraitementStatReservationMensuelTransport</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementStatReservationMensuelTransport</servlet-name>
+        <url-pattern>/TraitementStatReservationMensuelTransport</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TraitementPack</servlet-name>
+        <servlet-class>servlet.TraitementPack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementPack</servlet-name>
+        <url-pattern>/TraitementPack</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TraitementPagination</servlet-name>
+        <servlet-class>servlet.TraitementPagination</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementPagination</servlet-name>
+        <url-pattern>/TraitementPagination</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TraitementMap</servlet-name>
+        <servlet-class>servlet.TraitementMap</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraitementMap</servlet-name>
+        <url-pattern>/TraitementMap</url-pattern>
+    </servlet-mapping>
+
+
+
+    
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
